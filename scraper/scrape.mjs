@@ -42,7 +42,8 @@ async function scrapeCurrentPage(page) {
     }
     function parseDetail(html) {
       const doc = new DOMParser().parseFromString(html, "text/html");
-      const raw = doc.body ? doc.body.innerText.replace(/\r/g, "") : "";
+      doc.querySelectorAll("script,style,noscript").forEach((e) => e.remove());
+      const raw = doc.body ? (doc.body.innerText || doc.body.textContent || "").replace(/\r/g, "") : "";
       const text = clean(raw.replace(/\n/g, " "));
       const between = (start, ends) => {
         const i = raw.indexOf(start); if (i < 0) return "";
@@ -99,7 +100,7 @@ async function scrapeCurrentPage(page) {
       let iso = b.date;
       const mm = b.date.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})/);
       if (mm) iso = `${mm[3]}-${mm[1].padStart(2, "0")}-${mm[2].padStart(2, "0")}`;
-      out.push({ rec: b.rec, date: iso, addr: d.waddr || b.addr, zip: b.zip, desc: b.desc,
+      out.push({ rec: b.rec, date: iso, addr: b.addr, zip: b.zip, desc: b.desc,
         builder: d.builder || "", lic: d.lic || "", applicant: d.applicant || "", phone: d.phone || "",
         email: d.email || "", owner: d.owner || "", status: b.status, url: b.url });
       await new Promise((rs) => setTimeout(rs, 60));
