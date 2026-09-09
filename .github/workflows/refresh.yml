@@ -1,0 +1,52 @@
+name: Refresh permit data
+
+# Runs every morning (and on demand) to pull the latest permits into site/data.json.
+# The website (GitHub Pages, serving the /site folder) then shows the fresh data.
+
+on:
+  schedule:
+    - cron: "0 11 * * *"        # ~7:00 AM Eastern daily (11:00 UTC)
+  workflow_dispatch: {}          # lets you run it by hand from the Actions tab
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the code
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install the scraper
+        working-directory: scraper
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+
+      - name: Pull the latest permits
+        working-directory: scraper
+        env:
+          DAYS: "30"             # how many days back to pull; change if you want
+        run: npm run scrape
+
+      - name: Save the updated data
+        run: |
+          git config user.name "permit-radar-bot"
+          git config user.email "actions@github.com"
+          git add data.json
+          if git diff --staged --quiet; then
+            echo "No change in permit data."
+          else
+            git commit -m "Refresh permit data ($(date -u +%Y-%m-%d))"
+            git push
+          fi
