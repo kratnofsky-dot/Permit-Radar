@@ -1,0 +1,13 @@
+{
+  "name": "permit-radar-scraper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scrapes Mecklenburg County new residential construction permits into site/data.json",
+  "scripts": {
+    "scrape": "node scrape.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.47.0"
+  }
+}
