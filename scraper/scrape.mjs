@@ -136,20 +136,31 @@ async function run() {
   console.log(`Opening county site, pulling last ${DAYS} days (${mmddyyyy(start)} – ${mmddyyyy(end)})…`);
   await page.goto(SEARCH_URL, { waitUntil: "networkidle" });
 
-  // Choose the record type (this triggers a page postback)
-  await page.selectOption('select[id*="ddlGSPermitType"]', { label: "Residential New Construction Permit" });
-  await page.waitForLoadState("networkidle");
+  // Set the record type by value + the date window WITHOUT firing the dropdown's
+  // auto-reload (this matches the flow that works by hand), then submit.
+  await page.evaluate(({ s, e }) => {
+    const t = document.querySelector('select[id*="ddlGSPermitType"]');
+    if (t) {
+      const opt = Array.from(t.options).find((o) => (o.textContent || "").trim() === "Residential New Construction Permit");
+      if (opt) t.value = opt.value;
+    }
+    const sd = document.querySelector('input[id*="txtGSStartDate"]');
+    const ed = document.querySelector('input[id*="txtGSEndDate"]');
+    if (sd) sd.value = s;
+    if (ed) ed.value = e;
+  }, { s: mmddyyyy(start), e: mmddyyyy(end) });
 
-  // Set the date window
-  await page.fill('input[id*="txtGSStartDate"]', mmddyyyy(start));
-  await page.fill('input[id*="txtGSEndDate"]', mmddyyyy(end));
-
-  // Run the search
+  // Run the search (a full page postback)
   await Promise.all([
-    page.waitForLoadState("networkidle"),
+    page.waitForNavigation({ waitUntil: "networkidle" }).catch(() => {}),
     page.click('a[id*="btnNewSearch"]'),
   ]);
-  await sleep(1500);
+  // Wait until the results grid actually shows residential records
+  await page.waitForFunction(
+    () => Array.from(document.querySelectorAll("td a")).some((a) => /^RES-NEW/i.test((a.textContent || "").trim())),
+    { timeout: 45000 }
+  ).catch(() => {});
+  await sleep(1000);
 
   const byRec = new Map();
   for (let p = 1; p <= MAX_PAGES; p++) {
