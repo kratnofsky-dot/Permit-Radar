@@ -135,7 +135,10 @@ async function run() {
   page.setDefaultTimeout(60000);
 
   console.log(`Opening county site, pulling last ${DAYS} days (${mmddyyyy(start)} – ${mmddyyyy(end)})…`);
-  await page.goto(SEARCH_URL, { waitUntil: "networkidle" });
+  // "networkidle" is unreliable here (the page keeps background traffic open and never
+  // goes idle). Wait for the DOM instead, then for the search form to actually exist.
+  await page.goto(SEARCH_URL, { waitUntil: "domcontentloaded", timeout: 90000 });
+  await page.waitForSelector('select[id*="ddlGSPermitType"]', { timeout: 45000 });
 
   // Set the record type by value + the date window WITHOUT firing the dropdown's
   // auto-reload (this matches the flow that works by hand), then submit.
@@ -153,7 +156,7 @@ async function run() {
 
   // Run the search (a full page postback)
   await Promise.all([
-    page.waitForNavigation({ waitUntil: "networkidle" }).catch(() => {}),
+    page.waitForNavigation({ waitUntil: "domcontentloaded" }).catch(() => {}),
     page.click('a[id*="btnNewSearch"]'),
   ]);
   // Wait until the results grid actually shows residential records
