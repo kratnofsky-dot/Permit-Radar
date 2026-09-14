@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-13",
+    "updated": "2026-09-14",
     "count": 7,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
@@ -108,7 +108,7 @@
       "phone": "704-336-6692",
       "email": "tawnya.cook@meritagehomes.com",
       "owner": "MERITAGE HOMES OF THE CAROLINAS INC",
-      "status": "Pending",
+      "status": "Pending Remaining Units",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03JH1&agencyCode=MECKLENBURG&IsToShowInspection="
     }
   ]
