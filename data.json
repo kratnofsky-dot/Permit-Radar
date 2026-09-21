@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-09-20",
+    "updated": "2026-09-21",
     "count": 10,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
@@ -123,7 +123,7 @@
       "phone": "7049690776",
       "email": "charlottepermitting@tripointehomes.com",
       "owner": "KL LB BUY 4 LLC",
-      "status": "Pending",
+      "status": "Inspection Phase",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03MRL&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
