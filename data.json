@@ -1,11 +1,41 @@
 {
   "meta": {
-    "updated": "2026-09-27",
-    "count": 5,
+    "updated": "2026-09-28",
+    "count": 7,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
   },
   "rows": [
+    {
+      "rec": "RES-NEW-26-005406",
+      "date": "2026-09-27",
+      "addr": "265 EDEN CR, PINEVILLE NC 28134",
+      "zip": "28134",
+      "desc": "Build new as per plan and specifications in detailed drawings",
+      "builder": "Ultra Service Construction, L.L.C.",
+      "lic": "72091",
+      "applicant": "Karl Redd Ultra Service Construction LLC",
+      "phone": "7048701802",
+      "email": "getultra@gmail.com",
+      "owner": "CHAVEZ JACKSON CERRATO",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03Q16&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
+      "rec": "RES-NEW-26-005407",
+      "date": "2026-09-27",
+      "addr": "4749 ADDISON DR, CHARLOTTE NC 28211",
+      "zip": "28211",
+      "desc": "New single family residential construction with 2 car attached garage . 2 level home, 5.5 bathrooms and 5 bedrooms",
+      "builder": "Crescent Custom Builders LLC",
+      "lic": "85102",
+      "applicant": "Ahmad esmaeel",
+      "phone": "704-336-6692",
+      "email": "Esmaeelgc@gmail.com",
+      "owner": "CRESCENT CUSTOM BUILDERS LLC",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03Q1I&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
     {
       "rec": "RES-NEW-26-005398",
       "date": "2026-09-25",
