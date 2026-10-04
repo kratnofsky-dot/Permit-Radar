@@ -1,11 +1,26 @@
 {
   "meta": {
-    "updated": "2026-10-03",
+    "updated": "2026-10-04",
     "count": 8,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
   },
   "rows": [
+    {
+      "rec": "RES-NEW-26-005501",
+      "date": "2026-10-03",
+      "addr": "1442 YELLOW SPRINGS DR, HUNTERSVILLE NC 28078",
+      "zip": "28078",
+      "desc": "New residential single family dwelling",
+      "builder": "M/I Homes of Charlotte, LLC",
+      "lic": "54305",
+      "applicant": "Marc Byrd M/I Homes",
+      "phone": "8287077182",
+      "email": "mbyrd@mihomes.com",
+      "owner": "MI HOMES OF CHARLOTTE LLC",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03T4B&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
     {
       "rec": "RES-NEW-26-005500",
       "date": "2026-10-02",
@@ -110,21 +125,6 @@
       "owner": "BOGGESS CARRIE A",
       "status": "Pending",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03ST1&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005493",
-      "date": "2026-10-02",
-      "addr": "3140 JAMES RD, CHARLOTTE NC 28215",
-      "zip": "28215",
-      "desc": "single family home",
-      "builder": "Smurf Brothers LLC SMURF BROTHERS LLC",
-      "lic": "99297",
-      "applicant": "Daniel Brothers LLC Sanchez Martinez SMURF BROTHERS LLC",
-      "phone": "9803186952",
-      "email": "daniel.smurfbrotherllc@gmail.com",
-      "owner": "MORA JORGE NUNEZ",
-      "status": "Inspection Phase",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03SS2&agencyCode=MECKLENBURG&IsToShowInspection="
     }
   ]
 }
