@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-10-04",
+    "updated": "2026-10-05",
     "count": 8,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
@@ -18,7 +18,7 @@
       "phone": "8287077182",
       "email": "mbyrd@mihomes.com",
       "owner": "MI HOMES OF CHARLOTTE LLC",
-      "status": "Pending",
+      "status": "In Review - Waiting on Agency",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03T4B&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
