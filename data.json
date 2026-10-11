@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "2026-10-10",
-    "count": 4,
+    "updated": "2026-10-11",
+    "count": 2,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
   },
@@ -35,36 +35,6 @@
       "owner": "ICILDA NASTASE LIVING TRUST",
       "status": "Pending",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03W60&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005599",
-      "date": "2026-10-09",
-      "addr": "2049 HAWKSWORTH LN, CHARLOTTE NC 28262",
-      "zip": "28262",
-      "desc": "New construction for attached residential townhome building",
-      "builder": "Taylor Morrison of Carolinas, Inc.",
-      "lic": "76596",
-      "applicant": "Joanna Llambias Taylor Morrison of Carolinas",
-      "phone": "7044387457",
-      "email": "jllambias@taylormorrison.com",
-      "owner": "TAYLOR MORRISON OF CAROLINAS INC",
-      "status": "Pending",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03W5P&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005598",
-      "date": "2026-10-09",
-      "addr": "2053 HAWKSWORTH LN, CHARLOTTE NC 28262",
-      "zip": "28262",
-      "desc": "New construction for attached residential townhome building",
-      "builder": "Taylor Morrison of Carolinas, Inc.",
-      "lic": "76596",
-      "applicant": "Joanna Llambias Taylor Morrison of Carolinas",
-      "phone": "7044387457",
-      "email": "jllambias@taylormorrison.com",
-      "owner": "TAYLOR MORRISON OF CAROLINAS INC",
-      "status": "Pending",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=03W4V&agencyCode=MECKLENBURG&IsToShowInspection="
     }
   ]
 }
