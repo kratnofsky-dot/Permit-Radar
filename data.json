@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "2026-10-16",
-    "count": 9,
+    "updated": "2026-10-17",
+    "count": 7,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
   },
@@ -33,8 +33,23 @@
       "phone": "7042009730",
       "email": "cwellenhofer@drbgroup.co",
       "owner": "DRB GROUP NORTH CAROLINA LLC",
-      "status": "Pending",
+      "status": "Inspection Phase",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=040X7&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
+      "rec": "RES-NEW-26-005691",
+      "date": "2026-10-16",
+      "addr": "5745 WILGROVE-MINT HILL RD, MINT HILL NC 28227",
+      "zip": "28227",
+      "desc": "New single-family house",
+      "builder": "Carolina Quality Construction Services L.L.C. CAROLINA QUALITY CONSTRUCTION",
+      "lic": "87886",
+      "applicant": "Stanislav Cociug Carolina Quality Construction",
+      "phone": "7047737002",
+      "email": "costalm01@yahoo.com",
+      "owner": "BERG NIKOLAY",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=041CI&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
       "rec": "RES-NEW-26-005686",
@@ -52,6 +67,36 @@
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=040X1&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
+      "rec": "RES-NEW-26-005690",
+      "date": "2026-10-16",
+      "addr": "11618 SYCAMORE ST, CHARLOTTE NC 28213",
+      "zip": "11618",
+      "desc": "New Single Family Construction RUSSELL GROVE LOT 127",
+      "builder": "Meritage Homes of the Carolinas, Inc. MERITAGE HOMES OF THE CAROLINAS, INC.",
+      "lic": "70995",
+      "applicant": "Tawnya Cook MERITAGE HOMES OF THE CAROLINAS, INC.",
+      "phone": "704-336-6692",
+      "email": "tawnya.cook@meritagehomes.com",
+      "owner": "MERITAGE HOMES OF THE CAROLINAS INC",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=041C5&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
+      "rec": "RES-NEW-26-005689",
+      "date": "2026-10-16",
+      "addr": "2823 BANCROFT ST, CHARLOTTE NC 28206",
+      "zip": "28206",
+      "desc": "1 BUILDING 2 UNIT TOWNHOME",
+      "builder": "Cornerstone III Properties, Inc.",
+      "lic": "79200",
+      "applicant": "STAN PRESSLEY",
+      "phone": "704-336-6692",
+      "email": "STAN@CORNERSTONE3P.COM",
+      "owner": "TYCHE HOMES LLC",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=0414K&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
       "rec": "RES-NEW-26-005685",
       "date": "2026-10-15",
       "addr": "12512 RUSSELLWOOD LN, CHARLOTTE NC 28213",
@@ -65,81 +110,6 @@
       "owner": "MERITAGE HOMES OF THE CAROLINAS INC",
       "status": "In Review - Waiting on Agency",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=040T6&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005680",
-      "date": "2026-10-15",
-      "addr": "3238 MEADOW KNOLL DR, CHARLOTTE NC 28269",
-      "zip": "28269",
-      "desc": "MIL Bldg 16 lot 59 Replacement permit RES-NEW-26-04-002025",
-      "builder": "Mattamy Carolina Corporation",
-      "lic": "81405",
-      "applicant": "Roxanne Green",
-      "phone": "7046748102",
-      "email": "greenpermittinginc@gmail.com",
-      "owner": "MATTAMY CAROLINA COPRORATION",
-      "status": "Inspection Phase",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=040J4&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005684",
-      "date": "2026-10-15",
-      "addr": "12516 RUSSELLWOOD LN, CHARLOTTE NC 28213",
-      "zip": "12516",
-      "desc": "New Single Family Residential Construction RUSSELL GROVE LOT 34",
-      "builder": "Meritage Homes of the Carolinas, Inc. MERITAGE HOMES OF THE CAROLINAS, INC.",
-      "lic": "70995",
-      "applicant": "Tawnya Cook MERITAGE HOMES OF THE CAROLINAS, INC.",
-      "phone": "7049448900",
-      "email": "7042198052Tawnya.Cook@MeritageHomes.com",
-      "owner": "MERITAGE HOMES OF THE CAROLINAS INC",
-      "status": "In Review - Waiting on Agency",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=040T2&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005681",
-      "date": "2026-10-15",
-      "addr": "3234 MEADOW KNOLL DR, CHARLOTTE NC 28269",
-      "zip": "28269",
-      "desc": "MIL Bldg 16 Lot 60 Replacement permit RES-NEW-26-002026",
-      "builder": "Mattamy Carolina Corporation",
-      "lic": "81405",
-      "applicant": "Roxanne Green",
-      "phone": "7046748102",
-      "email": "greenpermittinginc@gmail.com",
-      "owner": "MATTAMY CAROLINA COPRORATION",
-      "status": "Inspection Phase",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=040KB&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005678",
-      "date": "2026-10-15",
-      "addr": "2316 EDISON ST, CHARLOTTE NC 28206",
-      "zip": "28206",
-      "desc": "Build New house at 2316 Edison St Per Plan and Code",
-      "builder": "Iconic Builders LLC",
-      "lic": "100481",
-      "applicant": "Patrick McCloskey",
-      "phone": "9802972472",
-      "email": "patrick@iconicbuildersnc.com",
-      "owner": "RESTORATION DESIGN CONSULTANTS LLC",
-      "status": "Inspection Phase",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=040B3&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005679",
-      "date": "2026-10-15",
-      "addr": "3242 MEADOW KNOLL DR, CHARLOTTE NC 28269",
-      "zip": "28269",
-      "desc": "MIL Bldg 16 lot 58 Replacement permit RES-NEW-26-04-002023",
-      "builder": "Mattamy Carolina Corporation",
-      "lic": "81405",
-      "applicant": "Roxanne Green",
-      "phone": "7046748102",
-      "email": "greenpermittinginc@gmail.com",
-      "owner": "MATTAMY CAROLINA COPRORATION",
-      "status": "Inspection Phase",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=040IL&agencyCode=MECKLENBURG&IsToShowInspection="
     }
   ]
 }
