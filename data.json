@@ -1,11 +1,26 @@
 {
   "meta": {
-    "updated": "2026-10-30",
+    "updated": "2026-10-31",
     "count": 7,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
   },
   "rows": [
+    {
+      "rec": "RES-NEW-26-005903",
+      "date": "2026-10-30",
+      "addr": "1905 LEAH LN, CHARLOTTE NC 28216",
+      "zip": "28216",
+      "desc": "New Single Family Construction ENCLAVE AT GALLOWAY RIDGE LOT 110",
+      "builder": "Meritage Homes of the Carolinas, Inc. MERITAGE HOMES OF THE CAROLINAS, INC.",
+      "lic": "70995",
+      "applicant": "Tawnya Cook MERITAGE HOMES OF THE CAROLINAS, INC.",
+      "phone": "704-336-6692",
+      "email": "tawnya.cook@meritagehomes.com",
+      "owner": "MERITAGE HOMES OF THE CAROLINAS INC",
+      "status": "In Review - Waiting on Agency",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=047UF&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
     {
       "rec": "RES-NEW-26-005902",
       "date": "2026-10-30",
@@ -18,7 +33,7 @@
       "phone": "704-336-6692",
       "email": "tawnya.cook@meritagehomes.com",
       "owner": "MERITAGE HOMES OF THE CAROLINAS INC",
-      "status": "Pending",
+      "status": "In Review - Waiting on Agency",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=047TC&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
@@ -33,8 +48,38 @@
       "phone": "8038104425",
       "email": "ckuhn@jporleans.com",
       "owner": "JPO SARDIS LP",
-      "status": "Pending",
+      "status": "In Review - Waiting on Agency",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=047SF&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
+      "rec": "RES-NEW-26-005905",
+      "date": "2026-10-30",
+      "addr": "5229 VERNON RIDGE RD, HUNTERSVILLE NC 28078",
+      "zip": "28078",
+      "desc": "New Single Family Detached Dwelling",
+      "builder": "Toll Bros. Of North Carolina, Inc. TOLL BROTHERS",
+      "lic": "33917",
+      "applicant": "Individual Katie Keely",
+      "phone": "7048492625",
+      "email": "9802233875kkeely@tollbrothers.com",
+      "owner": "TOLL SOUTHEAST BUILDING INC",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=0480W&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
+      "rec": "RES-NEW-26-005904",
+      "date": "2026-10-30",
+      "addr": "1324 WHISTLING DR, HUNTERSVILLE NC 28078",
+      "zip": "28078",
+      "desc": "New Single Family Detached Dwelling",
+      "builder": "Toll Bros. Of North Carolina, Inc. TOLL BROTHERS",
+      "lic": "33917",
+      "applicant": "Individual Katie Keely",
+      "phone": "7048492625",
+      "email": "9802233875kkeely@tollbrothers.com",
+      "owner": "TOLL SOUTHEAST BUILDING INC",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04809&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
       "rec": "RES-NEW-26-005900",
@@ -48,7 +93,7 @@
       "phone": "7046214664",
       "email": "submit@majpermits.com",
       "owner": "D R HORTON INC",
-      "status": "Pending",
+      "status": "In Review - Waiting on Agency",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=047PR&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
@@ -63,53 +108,8 @@
       "phone": "7046214664",
       "email": "submit@majpermits.com",
       "owner": "D R HORTON INC",
-      "status": "Pending",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=047O2&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005898",
-      "date": "2026-10-30",
-      "addr": "541 GREENWAY ST, DAVIDSON NC 28036",
-      "zip": "28036",
-      "desc": "New 2 story single family residence on crawl space foundation",
-      "builder": "Copper Builders, LLC",
-      "lic": "73657",
-      "applicant": "Shannon Douglas",
-      "phone": "7047285892",
-      "email": "shannon@copperbuilders.com",
-      "owner": "COPPER BUILDERS LLC",
-      "status": "Ready to Issue",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=047MU&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005890",
-      "date": "2026-10-29",
-      "addr": "9532 SLIMSTER DR, MECKLENBURG NC 28214",
-      "zip": "28214",
-      "desc": "The Vines Pines - Lot 114",
-      "builder": "Lennar Carolinas, LLC LENNAR CAROLINAS LLC",
-      "lic": "58118",
-      "applicant": "Patty Cook Lennar Carolinas LLC",
-      "phone": "7045160563",
-      "email": "patty.cook@lennar.com",
-      "owner": "KW-HS LOT OPTION POOL",
-      "status": "Inspection Phase",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04730&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-005896",
-      "date": "2026-10-29",
-      "addr": "1922 LEAH LN, CHARLOTTE NC 28216",
-      "zip": "28216",
-      "desc": "New Single Family Construction ENCLAVE AT GALLOWAY RIDGE LOT 22",
-      "builder": "Meritage Homes of the Carolinas, Inc. MERITAGE HOMES OF THE CAROLINAS, INC.",
-      "lic": "70995",
-      "applicant": "Tawnya Cook MERITAGE HOMES OF THE CAROLINAS, INC.",
-      "phone": "704-336-6692",
-      "email": "tawnya.cook@meritagehomes.com",
-      "owner": "MERITAGE HOMES OF THE CAROLINAS INC",
       "status": "In Review - Waiting on Agency",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=047IJ&agencyCode=MECKLENBURG&IsToShowInspection="
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=047O2&agencyCode=MECKLENBURG&IsToShowInspection="
     }
   ]
 }
