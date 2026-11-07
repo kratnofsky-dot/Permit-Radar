@@ -1,11 +1,71 @@
 {
   "meta": {
-    "updated": "2026-11-06",
-    "count": 5,
+    "updated": "2026-11-07",
+    "count": 7,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
   },
   "rows": [
+    {
+      "rec": "RES-NEW-26-006023",
+      "date": "2026-11-07",
+      "addr": "7301 MEADOW GLEN DR, MECKLENBURG NC 28227",
+      "zip": "28227",
+      "desc": "new single fmily tome to be built on vacant lot",
+      "builder": "Carolina Residential Homes LLC CAROLINA RESIDENTIAL HOMES",
+      "lic": "84713",
+      "applicant": "jorge Carolina Residential Homes LLC CAROLINA RESIDENTIAL HOMES",
+      "phone": "9802670870",
+      "email": "jlopez@carolinaresidentialhomes.com",
+      "owner": "ARIAS TEODORO BAZA",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04BKM&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
+      "rec": "RES-NEW-26-006022",
+      "date": "2026-11-07",
+      "addr": "16613 CROSSHAVEN DR, MECKLENBURG NC 28278",
+      "zip": "16613",
+      "desc": "ADU detached garage with room above",
+      "builder": "Landers Company",
+      "lic": "55160",
+      "applicant": "Justin Landers Landers Company PO Box",
+      "phone": "7045729174",
+      "email": "landersjl@earthlink.net",
+      "owner": "ROBERTSON CRAIG C",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04BK4&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
+      "rec": "RES-NEW-26-006015",
+      "date": "2026-11-06",
+      "addr": "6004 URBAN FOREST DR, CHARLOTTE NC 28216",
+      "zip": "28216",
+      "desc": "LEWIS HOUSE PLAN ELEVATION A W/2 CAR GARAGE & A REAR COVERED PORCH",
+      "builder": "NVR, Inc.",
+      "lic": "42783",
+      "applicant": "nvr operations NVR, Inc.",
+      "phone": "704-336-6692",
+      "email": "nestevez@nvrinc.com",
+      "owner": "CB MIRANDA DEVELOPERS LLC",
+      "status": "In Review - Waiting on Agency",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04BGL&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
+      "rec": "RES-NEW-26-006011",
+      "date": "2026-11-06",
+      "addr": "2216 HICKORY HOMESTEAD RD, PINEVILLE NC 28134",
+      "zip": "28134",
+      "desc": "NEW CONSTRUCTION - SINGLE FAMILY",
+      "builder": "DRB Group North Carolina, LLC",
+      "lic": "68937",
+      "applicant": "CATHERINE WELLENHOFER DRB GROUP NORTH CAROLINA, LLC",
+      "phone": "",
+      "email": "CWELLENHOFER@DRBGROUP.CO",
+      "owner": "DRB GROUP NORTH CAROLINA LLC",
+      "status": "Inspection Phase",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04BDR&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
     {
       "rec": "RES-NEW-26-006007",
       "date": "2026-11-06",
@@ -18,7 +78,7 @@
       "phone": "7047186966",
       "email": "Permit@nationalexpediter.com",
       "owner": "WEEKLEY HOMES LLC",
-      "status": "Pending",
+      "status": "Inspection Phase",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04B5E&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
@@ -37,49 +97,19 @@
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04B6Q&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
-      "rec": "RES-NEW-26-006005",
+      "rec": "RES-NEW-26-006010",
       "date": "2026-11-06",
-      "addr": "20001 SCHOONER DR, CORNELIUS NC 28031",
-      "zip": "20001",
-      "desc": "Demo old home on lot and construct 5700 SQ FT new custom home.",
-      "builder": "Lagniappe Homes, LLC",
-      "lic": "87822",
-      "applicant": "Stephen Chuilli",
-      "phone": "7042240284",
-      "email": "Tasha@LagniappeBuilders.com",
-      "owner": "LAGNIAPPE HOMES LLC",
-      "status": "Pending",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04B3W&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-006008",
-      "date": "2026-11-06",
-      "addr": "1143 WHISTLING DR, HUNTERSVILLE NC 28078",
-      "zip": "28078",
-      "desc": "New Single Family Detached Dwelling",
-      "builder": "Toll Bros. Of North Carolina, Inc. TOLL BROTHERS",
-      "lic": "33917",
-      "applicant": "Individual Katie Keely",
-      "phone": "7048492625",
-      "email": "9802233875kkeely@tollbrothers.com",
-      "owner": "TOLL SOUTHEAST BUILDING INC",
-      "status": "Pending",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04B5P&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-006006",
-      "date": "2026-11-06",
-      "addr": "3507 LINGONBERRY ST, MECKLENBURG NC 28214",
-      "zip": "28214",
-      "desc": "New TH construction, Belmeade Grove Bldg 6 Lots 144-148. These do not require fire system work",
-      "builder": "Havenn Homes, LLC",
-      "lic": "103656",
-      "applicant": "Sheri Farley Havenn Homes, LLC",
-      "phone": "4045693424",
-      "email": "permitting@havenn.homes",
-      "owner": "Q BELMEADE HOLDINGS LLC",
-      "status": "Pending",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04B4C&agencyCode=MECKLENBURG&IsToShowInspection="
+      "addr": "6033 PRIMM WOODS WY, CHARLOTTE NC 28216",
+      "zip": "28216",
+      "desc": "S8 0234 SEQUOIA Elev K, 10x12 Patio, No Covered Porch MP Review Sequoia SF Residence",
+      "builder": "NVR, Inc.",
+      "lic": "42783",
+      "applicant": "NVR dba Ryan Homes NVR, Inc. NVR OPERATIONS DBA RYAN HOMES",
+      "phone": "704-336-6692",
+      "email": "nestevez@nvrinc.com",
+      "owner": "CB SUNSET DEVELOPERS LLC",
+      "status": "In Review - Waiting on Agency",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04BC4&agencyCode=MECKLENBURG&IsToShowInspection="
     }
   ]
 }
