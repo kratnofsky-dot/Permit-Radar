@@ -1,6 +1,6 @@
 {
   "meta": {
-    "updated": "2026-11-14",
+    "updated": "2026-11-15",
     "count": 7,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
@@ -18,7 +18,7 @@
       "phone": "7046171213",
       "email": "jake@allycontractors.com",
       "owner": "BENJAMIN CHRISTOPHER ANTHONY",
-      "status": "Pending",
+      "status": "Inspection Phase",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04EXO&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
@@ -93,7 +93,7 @@
       "phone": "704-336-6692",
       "email": "sonia@srb-designbuild.com",
       "owner": "VCARE LLC",
-      "status": "Pending",
+      "status": "Bond Amount Exceeded",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04EQV&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
