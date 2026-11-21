@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "2026-11-20",
-    "count": 8,
+    "updated": "2026-11-21",
+    "count": 7,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
   },
@@ -18,7 +18,7 @@
       "phone": "704-336-6692",
       "email": "aotto@resibuilt.com",
       "owner": "RB WOODLANDS EDGE LLC",
-      "status": "Pending",
+      "status": "Inspection Phase",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04I7L&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
@@ -48,7 +48,7 @@
       "phone": "9199310497",
       "email": "PERMITTING@REDCEDARCO.COM",
       "owner": "BSFR TWO OWNER I LP",
-      "status": "Pending",
+      "status": "Inspection Phase",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04I64&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
@@ -63,7 +63,7 @@
       "phone": "704-336-6692",
       "email": "aotto@resibuilt.com",
       "owner": "RB WOODLANDS EDGE LLC",
-      "status": "Pending",
+      "status": "Bond Amount Exceeded",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04I8A&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
@@ -80,21 +80,6 @@
       "owner": "BARRINGER HOMES LLC",
       "status": "Bond Amount Exceeded",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04I2O&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-006237",
-      "date": "2026-11-20",
-      "addr": "12425 PALISADES PINE WY, MECKLENBURG NC 28278",
-      "zip": "12425",
-      "desc": "144000 per unit cost new construction Two unit townhomes",
-      "builder": "Resibuilt Homes, LLC",
-      "lic": "88285",
-      "applicant": "Individual Aaron Otto",
-      "phone": "704-336-6692",
-      "email": "aotto@resibuilt.com",
-      "owner": "RB WOODLANDS EDGE LLC",
-      "status": "Pending",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04I96&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
       "rec": "RES-NEW-26-006236",
