@@ -1,11 +1,26 @@
 {
   "meta": {
-    "updated": "2026-11-25",
-    "count": 7,
+    "updated": "2026-11-26",
+    "count": 8,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
   },
   "rows": [
+    {
+      "rec": "RES-NEW-26-006301",
+      "date": "2026-11-25",
+      "addr": "5035 GILCHRIST RD, CHARLOTTE NC 28211",
+      "zip": "28211",
+      "desc": "New townhome per plans",
+      "builder": "Sixteen Penny Construction, Inc.",
+      "lic": "63141",
+      "applicant": "Chris Beaubien Sixteen Penny Construction",
+      "phone": "2318180017",
+      "email": "chris@16pnc.com",
+      "owner": "BLUE AZALEA TRINITY LLC",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04KEC&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
     {
       "rec": "RES-NEW-26-006287",
       "date": "2026-11-25",
@@ -35,6 +50,21 @@
       "owner": "RB WOODLANDS EDGE LLC",
       "status": "Inspection Phase",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04JW1&agencyCode=MECKLENBURG&IsToShowInspection="
+    },
+    {
+      "rec": "RES-NEW-26-006302",
+      "date": "2026-11-25",
+      "addr": "5031 GILCHRIST RD, CHARLOTTE NC 28211",
+      "zip": "28211",
+      "desc": "New townhome per plans",
+      "builder": "Sixteen Penny Construction, Inc.",
+      "lic": "63141",
+      "applicant": "Chris Beaubien",
+      "phone": "2318180017",
+      "email": "chris@16pnc.com",
+      "owner": "BLUE AZALEA TRINITY LLC",
+      "status": "Pending",
+      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04KET&agencyCode=MECKLENBURG&IsToShowInspection="
     },
     {
       "rec": "RES-NEW-26-006285",
@@ -95,21 +125,6 @@
       "owner": "BLUE AZALEA TRINITY LLC",
       "status": "Pending",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04KAR&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-006296",
-      "date": "2026-11-25",
-      "addr": "215 EDGE WY, CHARLOTTE NC 28209",
-      "zip": "28209",
-      "desc": "Construction of 2 townhome building consisting of 8 units each for a total of 16 units. Unit 215",
-      "builder": "Samet Corporation SAMET CORPORATION",
-      "lic": "3538",
-      "applicant": "Sam Bennett SAMET CORPORATION",
-      "phone": "3364037404",
-      "email": "sbennett@sametcorp.com",
-      "owner": "MARSH SMF PH III LLC",
-      "status": "Pending",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04KBO&agencyCode=MECKLENBURG&IsToShowInspection="
     }
   ]
 }
