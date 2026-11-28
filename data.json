@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updated": "2026-11-27",
-    "count": 8,
+    "updated": "2026-11-28",
+    "count": 7,
     "rangeDays": 30,
     "source": "Mecklenburg County Accela — Permit & Inspections (Building), record type Residential New Construction Permit"
   },
@@ -110,21 +110,6 @@
       "owner": "RB WOODLANDS EDGE LLC",
       "status": "Inspection Phase",
       "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04JX7&agencyCode=MECKLENBURG&IsToShowInspection="
-    },
-    {
-      "rec": "RES-NEW-26-006295",
-      "date": "2026-11-25",
-      "addr": "5046 GILCHRIST RD, CHARLOTTE NC 28211",
-      "zip": "28211",
-      "desc": "2 unit 2 story townhome with attached garage",
-      "builder": "Sixteen Penny Construction, Inc. Sixteen Penny construction",
-      "lic": "63141",
-      "applicant": "Chris Beaubien Sixteen Penny Construction",
-      "phone": "2318180017",
-      "email": "chris@16pnc.com",
-      "owner": "BLUE AZALEA TRINITY LLC",
-      "status": "Pending",
-      "url": "https://aca-prod.accela.com/MECKLENBURG/Cap/CapDetail.aspx?Module=Building&TabName=Building&capID1=REC26&capID2=00000&capID3=04KAR&agencyCode=MECKLENBURG&IsToShowInspection="
     }
   ]
 }
